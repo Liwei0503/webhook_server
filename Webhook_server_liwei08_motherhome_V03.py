@@ -85,9 +85,9 @@ def Stock_Buy_in(stock_name, stock_quantity):
     pyautogui.press('tab',interval=1) 
     pyautogui.press('down',interval=0.5) 
     #pyautogui.click((pyautogui.locateCenterOnScreen('C:/Users/Liwei/python-imagesearch/firstrade_05.png')),interval=1.5)
-    
-    pyautogui.moveTo(756, 637,duration=0.3)
-    pyautogui.click(756, 637) 
+    #pyautogui.click((pyautogui.locateCenterOnScreen('E:/Projeccts/Python_Project/firstrade_05.png')),interval=1.5)
+    pyautogui.moveTo(753, 656,duration=1)
+    pyautogui.click(753, 656,duration=0) 
     # pyautogui.click((pyautogui.locateCenterOnScreen(
     #     'C:/Users/Liwei/python-imagesearch/firstrade_06.png'))8TQQQ,interval=1.5)
     print ('Buy in:', stock_name, '*num:', str(stock_quantity))
@@ -112,9 +112,9 @@ def Stock_Sell_out(stock_name, stock_quantity):
     pyautogui.press('tab')
     pyautogui.press('tab',interval=0.5) 
     pyautogui.press('down',interval=0.5) 
-    #pyautogui.click((pyautogui.locateCenterOnScreen('C:/Users/Liwei/python-imagesearch/firstrade_05.png')),interval=1.5)
-    pyautogui.moveTo(756, 637,duration=0.2)
-    pyautogui.click(756, 637) 
+    #pyautogui.click((pyautogui.locateCenterOnScreen('E:/Projeccts/Python_Project/firstrade_05.png')),interval=1.5)
+    pyautogui.moveTo(753, 656,duration=1)
+    pyautogui.click(753, 656,duration=0) 
     # pyautogui.click((pyautogui.locateCenterOnScreen(
     #     'C:/Users/Liwei/python-imagesearch/firstrade_06.png')),interval=1.5)
     print ('Sell out:', stock_name, '*num:', str(stock_quantity))
