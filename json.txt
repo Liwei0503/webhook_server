@@ -1,0 +1,1 @@
+{"pair": "{{ticker}}", "side": "{{strategy.order.action}}", "size": "1", "update_size": "{{strategy.position_size}}","time": "{{time}}","prise_open":"{{open}}","prise_close":"{{close}}","StrategyName":"MACD_30min","Volume": "{{volume}}"}
